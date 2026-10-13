@@ -1,0 +1,19 @@
+{
+  "cluster": "devnet",
+  "rpc": "https://api.devnet.solana.com",
+  "programId": "BJoVhD81MFEWzpbXKhuvZmh8HiA5bU3RJ9eirTbuSpNy",
+  "oracle": "GikB9ioECRURhnR2uRLJtJnFuXVxoGknuZRYEy9YTy5J",
+  "admin": "D4vbdeTg67CjrwQ4pD9FMnBFMa6aSRfS5mgDmAZddQMB",
+  "pools": {
+    "sol": {
+      "mint": "So11111111111111111111111111111111111111112",
+      "decimals": 9,
+      "treasury": "4NuQcQdosrg6qYyTjPkdjizdw9HEir3geY4NqYHK7dvS",
+      "config": "DwLsBD9RMWfiUGoJC4FhVSN4M6A4jYtTiroJwUpP685N",
+      "vault": "7YwSkavDjnyvEqARuz1qtXdJfCSpzQQudCDqg83aK5sc",
+      "rakeBps": 800,
+      "maxEntriesPerDay": 0,
+      "maxPot": 0
+    }
+  }
+}

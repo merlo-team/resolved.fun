@@ -1,0 +1,30 @@
+{
+  "cluster": "mainnet",
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "programId": "BJoVhD81MFEWzpbXKhuvZmh8HiA5bU3RJ9eirTbuSpNy",
+  "oracle": "GikB9ioECRURhnR2uRLJtJnFuXVxoGknuZRYEy9YTy5J",
+  "admin": "D4vbdeTg67CjrwQ4pD9FMnBFMa6aSRfS5mgDmAZddQMB",
+  "pools": {
+    "sol": {
+      "mint": "So11111111111111111111111111111111111111112",
+      "decimals": 9,
+      "treasury": "4NuQcQdosrg6qYyTjPkdjizdw9HEir3geY4NqYHK7dvS",
+      "config": "DwLsBD9RMWfiUGoJC4FhVSN4M6A4jYtTiroJwUpP685N",
+      "vault": "7YwSkavDjnyvEqARuz1qtXdJfCSpzQQudCDqg83aK5sc",
+      "fees": "FstnWK8PkzprgAhSaDmzDsfy86nDH6NbRrmUDRPgYVuV",
+      "rakeBps": 0,
+      "creatorBps": 100,
+      "creator": "6PQ9ULgtZnsvCsTRinDRdiVaHayuAykn15Do5WSMBKm7",
+      "tierPlayers": [
+        5,
+        10
+      ],
+      "tierBps": [
+        200,
+        500
+      ],
+      "maxEntriesPerDay": 0,
+      "maxPot": 0
+    }
+  }
+}

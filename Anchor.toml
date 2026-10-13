@@ -1,0 +1,26 @@
+[toolchain]
+anchor_version = "0.30.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+resolved_pool = "BJoVhD81MFEWzpbXKhuvZmh8HiA5bU3RJ9eirTbuSpNy"
+
+[programs.devnet]
+resolved_pool = "BJoVhD81MFEWzpbXKhuvZmh8HiA5bU3RJ9eirTbuSpNy"
+
+[programs.mainnet]
+resolved_pool = "BJoVhD81MFEWzpbXKhuvZmh8HiA5bU3RJ9eirTbuSpNy"
+
+[registry]
+url = "https://api.apr.dev"
+
+# Pinned to localnet on purpose: the machine's default Solana CLI config points at mainnet.
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npx ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
